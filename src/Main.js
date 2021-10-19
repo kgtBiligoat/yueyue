@@ -74,11 +74,10 @@ class Main extends Component {
                 <div className="date">{date()}</div>
                 <div id="autotype">
                     <h1 style={{ fontWeight: 900 }}>致越越</h1>
-                    <p ></p>
+                    <p>本来这个主题是一封情书的形式，但有人不让我玩尬的，我全给他删掉了</p>
                     <p></p>
-
                     <div style={{ textAlign: 'right' }}>
-                        <p></p>
+                        <p>llb</p>
                         <p>2021年12月3日</p>
                     </div>
                 </div>
