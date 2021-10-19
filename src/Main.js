@@ -17,7 +17,7 @@ class Main extends Component {
         }, 1000
         )
         var audio = document.getElementById("audio");
-        setTimeout(() => audio.play(), 8500) // 背景音乐在页面加载后，延迟播放的时长，单位：毫秒。
+        setTimeout(() => audio.play(), 1000) // 背景音乐在页面加载后，延迟播放的时长，单位：毫秒。
     }
     print = () => {
         $.fn.autotype = function () {
@@ -65,13 +65,13 @@ class Main extends Component {
         const date = () => {
             if (this.state.date.d !== undefined) {
                 const { d, hour, minute, second } = this.state.date
-                return (<p><audio id="audio" src={url}></audio>爱上你的第<span className="date-text">{d}</span> 天 <span className="date-text">{hour}</span> 小时 <span className="date-text">{minute}</span> 分 <span className="date-text">{second}</span> 秒 </p>
+                return (<p>爱上你的第<span className="date-text">{d}</span> 天 <span className="date-text">{hour}</span> 小时 <span className="date-text">{minute}</span> 分 <span className="date-text">{second}</span> 秒 </p>
                 )
             }
         }
         return (
             <div className="App animated bounceInLeft">
-
+                <audio id="audio" src={url}></audio>
                 <div className="date">{date()}</div>
                 <div id="autotype">
                     <h1 style={{ fontWeight: 900 }}>写给越越</h1>
