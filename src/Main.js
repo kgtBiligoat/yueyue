@@ -71,6 +71,7 @@ class Main extends Component {
         }
         return (
             <div className="App animated bounceInLeft">
+                <audio id="audio" src={url}></audio>
                 <div className="date">{date()}</div>
                 <div id="autotype">
                     <h1 style={{ fontWeight: 900 }}>写给越越</h1>
@@ -93,7 +94,6 @@ class Main extends Component {
                         <p>2021年10月日19</p>
                     </div>
                 </div>
-                <audio id="audio" src={url}></audio>
             </div>
 
         )
