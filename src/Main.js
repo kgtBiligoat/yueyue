@@ -65,7 +65,7 @@ class Main extends Component {
         const date = () => {
             if (this.state.date.d !== undefined) {
                 const { d, hour, minute, second } = this.state.date
-                return (<p>爱上你的时间：<span className="date-text">{d}</span> 天 <span className="date-text">{hour}</span> 小时 <span className="date-text">{minute}</span> 分 <span className="date-text">{second}</span> 秒 </p>
+                return (<p>爱上你的第<span className="date-text">{d}</span> 天 <span className="date-text">{hour}</span> 小时 <span className="date-text">{minute}</span> 分 <span className="date-text">{second}</span> 秒 </p>
                 )
             }
         }
@@ -73,12 +73,23 @@ class Main extends Component {
             <div className="App animated bounceInLeft">
                 <div className="date">{date()}</div>
                 <div id="autotype">
-                    <h1 style={{ fontWeight: 900 }}>致越越</h1>
+                    <h1 style={{ fontWeight: 900 }}>写给越越</h1>
                     <p>本来这个主题是一封情书的形式，但有人不让我玩尬的，我全给他删掉了</p>
-                    <p></p>
+                    <p>这个准备了几个月，本来打算在你生日的时候作为你生日的一个小礼物送给你的，
+                        但我的宝昨天的心情好像不太好，于是就提前给你看看啦，到时候生日再给你重新做一个吧</p>
+                    <p>本来还想放上你的照片的，但好像那张机车少女的颜色和这个背景不太搭</p>
+                    <p>之前准备的内容我临时给删掉了，所以内容看上去会很乱，哈哈哈哈哈哈哈哈哈哈哈全文下来
+                        估计都是我的碎碎念，想到啥写啥，希望我的宝不会嫌弃</p>
+                    <p>虽然都是碎碎念，但希望你可以在碎碎念中看出来我喜欢你</p>
+                    <p>我是垃圾，但我的爱不是！！！</p>
+                    <p>哈哈哈哈哈哈哈哈哈哈哈 好啦好啦不玩尬，希望我的宝不要因为这个衣服难过伤心哦</p>
+                    <p>不过是一件衣服而已，咱不要他啦！以后一定会有更好看的衣服等着我的宝！毕竟我的宝这么好看</p>
+                    <p>要天天开心哦，今天的你也是这么的可爱</p>
+                    <p>爱你</p>
+                    <p>顺颂时祺</p>
                     <div style={{ textAlign: 'right' }}>
                         <p>llb</p>
-                        <p>2021年12月3日</p>
+                        <p>2021年10月日19</p>
                     </div>
                 </div>
                 <audio id="audio" src={url}></audio>
